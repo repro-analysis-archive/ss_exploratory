@@ -1,0 +1,167 @@
+time,question,query_id,source,query,hits_reported,records_saved
+2026-10-13T08:22:27+09:00,Q1,Q1.0,pubmed,concept erasure distribution shift,0,0
+2026-10-13T08:22:31+09:00,Q1,Q1.0,arxiv,"all:""concept erasure"" AND all:shift",7,7
+2026-10-13T08:22:37+09:00,Q1,Q1.0,s2,concept erasure distribution shift,7874,25
+2026-10-13T08:22:38+09:00,Q1,Q1.0,openalex,concept erasure distribution shift,28537,25
+2026-10-13T08:22:39+09:00,Q1,Q1.1,pubmed,LEACE concept erasure,0,0
+2026-10-13T08:22:43+09:00,Q1,Q1.1,arxiv,all:LEACE,15,15
+2026-10-13T08:22:45+09:00,Q1,Q1.1,s2,LEACE concept erasure,2266,25
+2026-10-13T08:22:47+09:00,Q1,Q1.1,openalex,LEACE concept erasure,279,25
+2026-10-13T08:22:48+09:00,Q1,Q1.2,pubmed,iterative nullspace projection protected attribute removal,0,0
+2026-10-13T08:22:52+09:00,Q1,Q1.2,arxiv,"all:""nullspace projection""",20,20
+2026-10-13T08:22:54+09:00,Q1,Q1.2,s2,iterative nullspace projection protected attribute removal,30,25
+2026-10-13T08:22:56+09:00,Q1,Q1.2,openalex,iterative nullspace projection protected attribute removal,317,25
+2026-10-13T08:22:57+09:00,Q1,Q1.3,pubmed,linear concept erasure nonlinear recovery,0,0
+2026-10-13T08:23:01+09:00,Q1,Q1.3,arxiv,"all:""concept erasure"" AND all:nonlinear",5,5
+2026-10-13T08:23:04+09:00,Q1,Q1.3,s2,linear concept erasure nonlinear recovery,221,25
+2026-10-13T08:23:06+09:00,Q1,Q1.3,openalex,linear concept erasure nonlinear recovery,1461,25
+2026-10-13T08:23:06+09:00,Q1,Q1.4,pubmed,adversarial removal demographic attributes recoverable,0,0
+2026-10-13T08:23:10+09:00,Q1,Q1.4,arxiv,"all:""adversarial removal"" AND all:attributes",1,1
+2026-10-13T08:23:12+09:00,Q1,Q1.4,s2,adversarial removal demographic attributes recoverable,15,15
+2026-10-13T08:23:14+09:00,Q1,Q1.4,openalex,adversarial removal demographic attributes recoverable,1974,25
+2026-10-13T08:23:15+09:00,Q1,Q1.5,pubmed,concept removal out-of-distribution subgroup,0,0
+2026-10-13T08:23:19+09:00,Q1,Q1.5,arxiv,"all:""concept removal"" AND all:distribution",7,7
+2026-10-13T08:23:21+09:00,Q1,Q1.5,s2,concept removal out-of-distribution subgroup,438,25
+2026-10-13T08:23:23+09:00,Q1,Q1.5,openalex,concept removal out-of-distribution subgroup,59862,25
+2026-10-13T08:23:25+09:00,Q2,Q2.0,pubmed,ComBat harmonization site classification after harmonization,6,6
+2026-10-13T08:23:30+09:00,Q2,Q2.0,arxiv,all:ComBat AND all:harmonization AND all:site,16,16
+2026-10-13T08:23:32+09:00,Q2,Q2.0,s2,ComBat harmonization site classification after harmonization,1989,25
+2026-10-13T08:23:35+09:00,Q2,Q2.0,openalex,ComBat harmonization site classification after harmonization,18386,25
+2026-10-13T08:23:36+09:00,Q2,Q2.1,pubmed,scanner effects remain after harmonization machine learning,3,3
+2026-10-13T08:23:41+09:00,Q2,Q2.1,arxiv,"all:scanner AND all:harmonization AND all:""machine learning""",30,25
+2026-10-13T08:24:05+09:00,Q2,Q2.1,s2,scanner effects remain after harmonization machine learning,841,25
+2026-10-13T08:24:08+09:00,Q2,Q2.1,openalex,scanner effects remain after harmonization machine learning,6016,25
+2026-10-13T08:24:10+09:00,Q2,Q2.2,pubmed,site information predictable after harmonization MRI,6,6
+2026-10-13T08:24:14+09:00,Q2,Q2.2,arxiv,all:harmonization AND all:site AND all:predict,79,25
+2026-10-13T08:24:17+09:00,Q2,Q2.2,s2,site information predictable after harmonization MRI,1795,25
+2026-10-13T08:24:19+09:00,Q2,Q2.2,openalex,site information predictable after harmonization MRI,1437,25
+2026-10-13T08:24:20+09:00,Q2,Q2.3,pubmed,site-invariant features adversarial MRI multi-site,1,1
+2026-10-13T08:24:24+09:00,Q2,Q2.3,arxiv,"all:""site-invariant""",12,12
+2026-10-13T08:24:30+09:00,Q2,Q2.3,s2,site-invariant features adversarial MRI multi-site,702,25
+2026-10-13T08:24:32+09:00,Q2,Q2.3,openalex,site-invariant features adversarial MRI multi-site,1491,25
+2026-10-13T08:24:34+09:00,Q2,Q2.4,pubmed,nonlinear site effects harmonization deep learning residual,3,3
+2026-10-13T08:24:38+09:00,Q2,Q2.4,arxiv,all:harmonization AND all:nonlinear AND all:site,59,25
+2026-10-13T08:24:40+09:00,Q2,Q2.4,s2,nonlinear site effects harmonization deep learning residual,248,25
+2026-10-13T08:24:42+09:00,Q2,Q2.4,openalex,nonlinear site effects harmonization deep learning residual,3514,25
+2026-10-13T08:24:44+09:00,Q2,Q2.5,pubmed,domain adversarial scanner invariance medical imaging,5,5
+2026-10-13T08:24:48+09:00,Q2,Q2.5,arxiv,all:adversarial AND all:scanner AND all:invariant,11,11
+2026-10-13T08:24:51+09:00,Q2,Q2.5,s2,domain adversarial scanner invariance medical imaging,1964,25
+2026-10-13T08:24:52+09:00,Q2,Q2.5,openalex,domain adversarial scanner invariance medical imaging,949,25
+2026-10-13T08:24:54+09:00,Q3,Q3.0,pubmed,causal effect estimation learned representations confounding adjustment images,3,3
+2026-10-13T08:24:58+09:00,Q3,Q3.0,arxiv,all:causal AND all:confounding AND all:image AND all:representation,32,25
+2026-10-13T08:25:00+09:00,Q3,Q3.0,s2,causal effect estimation learned representations confounding adjustment images,57,25
+2026-10-13T08:25:02+09:00,Q3,Q3.0,openalex,causal effect estimation learned representations confounding adjustment images,3696,25
+2026-10-13T08:25:04+09:00,Q3,Q3.1,pubmed,text as confounder adjustment representation causal,3,3
+2026-10-13T08:25:08+09:00,Q3,Q3.1,arxiv,"all:""text as"" AND all:confounder",362,25
+2026-10-13T08:25:10+09:00,Q3,Q3.1,s2,text as confounder adjustment representation causal,274,25
+2026-10-13T08:25:12+09:00,Q3,Q3.1,openalex,text as confounder adjustment representation causal,26107,25
+2026-10-13T08:25:13+09:00,Q3,Q3.2,pubmed,deep learning confounder adjustment imaging observational causal effect bias,0,0
+2026-10-13T08:25:17+09:00,Q3,Q3.2,arxiv,"all:confounder AND all:imaging AND all:""causal effect""",25,25
+2026-10-13T08:25:19+09:00,Q3,Q3.2,s2,deep learning confounder adjustment imaging observational causal effect bias,110,25
+2026-10-13T08:25:21+09:00,Q3,Q3.2,openalex,deep learning confounder adjustment imaging observational causal effect bias,13616,25
+2026-10-13T08:25:23+09:00,Q3,Q3.3,pubmed,residual confounding embeddings causal inference,1,1
+2026-10-13T08:25:27+09:00,Q3,Q3.3,arxiv,all:embeddings AND all:confounding AND all:causal,72,25
+2026-10-13T08:25:33+09:00,Q3,Q3.3,s2,residual confounding embeddings causal inference,595,25
+2026-10-13T08:25:34+09:00,Q3,Q3.3,openalex,residual confounding embeddings causal inference,13300,25
+2026-10-13T08:25:36+09:00,Q3,Q3.4,pubmed,harmonization site confounding causal inference neuroimaging,1,1
+2026-10-13T08:25:40+09:00,Q3,Q3.4,arxiv,all:harmonization AND all:causal AND all:confounding,5,5
+2026-10-13T08:25:42+09:00,Q3,Q3.4,s2,harmonization site confounding causal inference neuroimaging,230,25
+2026-10-13T08:25:44+09:00,Q3,Q3.4,openalex,harmonization site confounding causal inference neuroimaging,877,25
+2026-10-13T08:25:45+09:00,Q3,Q3.5,pubmed,video representations confounding adjustment causal,0,0
+2026-10-13T08:25:49+09:00,Q3,Q3.5,arxiv,all:video AND all:confounding AND all:causal,50,25
+2026-10-13T08:26:01+09:00,Q3,Q3.5,s2,video representations confounding adjustment causal,160,25
+2026-10-13T08:26:03+09:00,Q3,Q3.5,openalex,video representations confounding adjustment causal,6453,25
+2026-10-13T08:26:04+09:00,Q4,Q4.0,pubmed,bias amplification instrumental variable time-varying treatment,1,1
+2026-10-13T08:26:08+09:00,Q4,Q4.0,arxiv,"all:""bias amplification""",121,25
+2026-10-13T08:26:11+09:00,Q4,Q4.0,s2,bias amplification instrumental variable time-varying treatment,1154,25
+2026-10-13T08:26:13+09:00,Q4,Q4.0,openalex,bias amplification instrumental variable time-varying treatment,31105,25
+2026-10-13T08:26:14+09:00,Q4,Q4.1,pubmed,Z-bias longitudinal adjustment,1,1
+2026-10-13T08:26:18+09:00,Q4,Q4.1,arxiv,"all:""Z-bias""",17,17
+2026-10-13T08:26:21+09:00,Q4,Q4.1,s2,Z-bias longitudinal adjustment,7360,25
+2026-10-13T08:26:23+09:00,Q4,Q4.1,openalex,Z-bias longitudinal adjustment,489274,25
+2026-10-13T08:26:24+09:00,Q4,Q4.2,pubmed,bias amplification marginal structural model,0,0
+2026-10-13T08:26:28+09:00,Q4,Q4.2,arxiv,"all:""bias amplification"" AND all:longitudinal",1,1
+2026-10-13T08:26:31+09:00,Q4,Q4.2,s2,bias amplification marginal structural model,1730,25
+2026-10-13T08:26:32+09:00,Q4,Q4.2,openalex,bias amplification marginal structural model,113705,25
+2026-10-13T08:26:33+09:00,Q4,Q4.3,pubmed,conditioning on instrument time-varying confounding bias,0,0
+2026-10-13T08:26:37+09:00,Q4,Q4.3,arxiv,"all:instrument AND all:""time-varying"" AND all:confounding AND all:bias",4,4
+2026-10-13T08:26:39+09:00,Q4,Q4.3,s2,conditioning on instrument time-varying confounding bias,171,25
+2026-10-13T08:26:41+09:00,Q4,Q4.3,openalex,conditioning on instrument time-varying confounding bias,78421,25
+2026-10-13T08:26:42+09:00,Q4,Q4.4,pubmed,adjustment for instrumental variables increases bias sequential treatments,0,0
+2026-10-13T08:26:46+09:00,Q4,Q4.4,arxiv,"all:""instrumental variable"" AND all:adjustment AND all:bias AND all:sequential",1,1
+2026-10-13T08:26:57+09:00,Q4,Q4.4,s2,adjustment for instrumental variables increases bias sequential treatments,86,25
+2026-10-13T08:26:59+09:00,Q4,Q4.4,openalex,adjustment for instrumental variables increases bias sequential treatments,28203,25
+2026-10-13T08:27:00+09:00,Q4,Q4.5,pubmed,multicenter study center as instrument bias amplification,0,0
+2026-10-13T08:27:04+09:00,Q4,Q4.5,arxiv,"all:center AND all:instrument AND all:""bias amplification""",0,0
+2026-10-13T08:27:06+09:00,Q4,Q4.5,s2,multicenter study center as instrument bias amplification,72,25
+2026-10-13T08:27:08+09:00,Q4,Q4.5,openalex,multicenter study center as instrument bias amplification,7663,25
+2026-10-13T08:28:47+09:00,Q1,Q1.100,pubmed,concept erasure held-out generalization protected attribute recovered,0,0
+2026-10-13T08:28:48+09:00,Q1,Q1.100,arxiv,"all:erasure AND all:""protected attribute""",3,3
+2026-10-13T08:28:52+09:00,Q1,Q1.100,s2,concept erasure held-out generalization protected attribute recovered,0,0
+2026-10-13T08:28:54+09:00,Q1,Q1.100,openalex,concept erasure held-out generalization protected attribute recovered,1036,25
+2026-10-13T08:29:08+09:00,Q1,Q1.101,pubmed,debiasing word embeddings protected attribute still recoverable classifier,0,0
+2026-10-13T08:29:08+09:00,Q1,Q1.101,arxiv,all:debiasing AND all:recoverable,0,0
+2026-10-13T08:29:12+09:00,Q1,Q1.101,s2,debiasing word embeddings protected attribute still recoverable classifier,1,1
+2026-10-13T08:29:14+09:00,Q1,Q1.101,openalex,debiasing word embeddings protected attribute still recoverable classifier,320,25
+2026-10-13T08:29:15+09:00,Q1,Q1.102,pubmed,fair representation transfer distribution shift protected attribute leakage,0,0
+2026-10-13T08:29:16+09:00,Q1,Q1.102,arxiv,"all:""fair representation"" AND all:shift",5,5
+2026-10-13T08:29:20+09:00,Q1,Q1.102,s2,fair representation transfer distribution shift protected attribute leakage,7,7
+2026-10-13T08:29:22+09:00,Q1,Q1.102,openalex,fair representation transfer distribution shift protected attribute leakage,6547,25
+2026-10-13T08:29:24+09:00,Q1,Q1.103,pubmed,linear guardedness,1,1
+2026-10-13T08:29:24+09:00,Q1,Q1.103,arxiv,all:guardedness,27,25
+2026-10-13T08:29:28+09:00,Q1,Q1.103,s2,linear guardedness,4937344,25
+2026-10-13T08:29:30+09:00,Q1,Q1.103,openalex,linear guardedness,37550,25
+2026-10-13T08:29:32+09:00,Q2,Q2.100,pubmed,ComBat residual site effects detectable classifier,1,1
+2026-10-13T08:29:33+09:00,Q2,Q2.100,arxiv,all:ComBat AND all:classifier,219,25
+2026-10-13T08:29:38+09:00,Q2,Q2.100,s2,ComBat residual site effects detectable classifier,1527,25
+2026-10-13T08:29:40+09:00,Q2,Q2.100,openalex,ComBat residual site effects detectable classifier,9936,25
+2026-10-13T08:29:42+09:00,Q2,Q2.101,pubmed,site prediction accuracy after ComBat harmonization,3,3
+2026-10-13T08:29:43+09:00,Q2,Q2.101,arxiv,"all:""site prediction""",75,25
+2026-10-13T08:29:48+09:00,Q2,Q2.101,s2,site prediction accuracy after ComBat harmonization,2599,25
+2026-10-13T08:29:51+09:00,Q2,Q2.101,openalex,site prediction accuracy after ComBat harmonization,6613,25
+2026-10-13T08:29:51+09:00,Q2,Q2.102,pubmed,nonlinear batch effects machine learning detect scanner after harmonization,0,0
+2026-10-13T08:29:52+09:00,Q2,Q2.102,arxiv,"all:""batch effects"" AND all:scanner",5,5
+2026-10-13T08:29:56+09:00,Q2,Q2.102,s2,nonlinear batch effects machine learning detect scanner after harmonization,4,4
+2026-10-13T08:29:58+09:00,Q2,Q2.102,openalex,nonlinear batch effects machine learning detect scanner after harmonization,583,25
+2026-10-13T08:30:00+09:00,Q2,Q2.103,pubmed,scanner identification deep learning features harmonized,7,7
+2026-10-13T08:30:01+09:00,Q2,Q2.103,arxiv,all:scanner AND all:identification AND all:harmonized,2,2
+2026-10-13T08:30:06+09:00,Q2,Q2.103,s2,scanner identification deep learning features harmonized,20190,25
+2026-10-13T08:30:08+09:00,Q2,Q2.103,openalex,scanner identification deep learning features harmonized,5517,25
+2026-10-13T08:30:09+09:00,Q3,Q3.100,pubmed,harmonization causal effect estimation bias multi-site,0,0
+2026-10-13T08:30:10+09:00,Q3,Q3.100,arxiv,"all:harmonization AND all:""causal effect""",5,5
+2026-10-13T08:30:14+09:00,Q3,Q3.100,s2,harmonization causal effect estimation bias multi-site,260,25
+2026-10-13T08:30:17+09:00,Q3,Q3.100,openalex,harmonization causal effect estimation bias multi-site,6414,25
+2026-10-13T08:30:19+09:00,Q3,Q3.101,pubmed,batch effects causal inference confounding,9,9
+2026-10-13T08:30:20+09:00,Q3,Q3.101,arxiv,"all:""batch effects"" AND all:causal",2,2
+2026-10-13T08:30:24+09:00,Q3,Q3.101,s2,batch effects causal inference confounding,2495,25
+2026-10-13T08:30:26+09:00,Q3,Q3.101,openalex,batch effects causal inference confounding,12117,25
+2026-10-13T08:30:28+09:00,Q3,Q3.102,pubmed,pretrained representations confounding adjustment causal effect,2,2
+2026-10-13T08:30:29+09:00,Q3,Q3.102,arxiv,"all:""pre-trained representations"" AND all:confounding",2,2
+2026-10-13T08:30:33+09:00,Q3,Q3.102,s2,pretrained representations confounding adjustment causal effect,3223,25
+2026-10-13T08:30:36+09:00,Q3,Q3.102,openalex,pretrained representations confounding adjustment causal effect,2270,25
+2026-10-13T08:30:38+09:00,Q3,Q3.103,pubmed,image embeddings residual confounding treatment effect,2,2
+2026-10-13T08:30:39+09:00,Q3,Q3.103,arxiv,"all:""image"" AND all:""treatment effect"" AND all:confounding AND all:embedding",4,4
+2026-10-13T08:30:43+09:00,Q3,Q3.103,s2,image embeddings residual confounding treatment effect,5313,25
+2026-10-13T08:30:46+09:00,Q3,Q3.103,openalex,image embeddings residual confounding treatment effect,17989,25
+2026-10-13T08:30:46+09:00,Q4,Q4.100,pubmed,Z-bias time-varying treatment,0,0
+2026-10-13T08:30:47+09:00,Q4,Q4.100,arxiv,"all:""Z-bias"" AND all:""time-varying""",0,0
+2026-10-13T08:30:51+09:00,Q4,Q4.100,s2,Z-bias time-varying treatment,4653,25
+2026-10-13T08:30:55+09:00,Q4,Q4.100,openalex,Z-bias time-varying treatment,871916,25
+2026-10-13T08:30:57+09:00,Q4,Q4.101,pubmed,bias amplification time-varying treatment,2,2
+2026-10-13T08:30:58+09:00,Q4,Q4.101,arxiv,"all:""bias amplification"" AND all:""time-varying""",0,0
+2026-10-13T08:31:04+09:00,Q4,Q4.101,s2,bias amplification time-varying treatment,3683,25
+2026-10-13T08:31:06+09:00,Q4,Q4.101,openalex,bias amplification time-varying treatment,251127,25
+2026-10-13T08:31:07+09:00,Q4,Q4.102,pubmed,incremental propensity score intervention bias amplification instrument,0,0
+2026-10-13T08:31:08+09:00,Q4,Q4.102,arxiv,"all:""incremental propensity score""",10,10
+2026-10-13T08:31:12+09:00,Q4,Q4.102,s2,incremental propensity score intervention bias amplification instrument,79,25
+2026-10-13T08:31:14+09:00,Q4,Q4.102,openalex,incremental propensity score intervention bias amplification instrument,2441,25
+2026-10-13T08:31:16+09:00,Q4,Q4.103,pubmed,modified treatment policy instrumental variable adjustment bias,1,1
+2026-10-13T08:31:17+09:00,Q4,Q4.103,arxiv,"all:""modified treatment policy""",25,25
+2026-10-13T08:31:21+09:00,Q4,Q4.103,s2,modified treatment policy instrumental variable adjustment bias,866,25
+2026-10-13T08:31:24+09:00,Q4,Q4.103,openalex,modified treatment policy instrumental variable adjustment bias,41430,25
+2026-10-13T08:31:24+09:00,Q4,Q4.104,pubmed,adjusting for instruments g-computation inverse probability weighting time-varying bias,0,0
+2026-10-13T08:31:25+09:00,Q4,Q4.104,arxiv,"all:instrument AND all:""g-computation""",0,0
+2026-10-13T08:31:29+09:00,Q4,Q4.104,s2,adjusting for instruments g-computation inverse probability weighting time-varying bias,37,25
+2026-10-13T08:31:31+09:00,Q4,Q4.104,openalex,adjusting for instruments g-computation inverse probability weighting time-varying bias,10120,25
+2026-10-13T08:31:32+09:00,Q4,Q4.id:2411.14285,arxiv,id_list=2411.14285,1,1
+2026-10-13T08:31:36+09:00,Q4,Q4.id:2609.11222,arxiv,id_list=2609.11222,1,1
