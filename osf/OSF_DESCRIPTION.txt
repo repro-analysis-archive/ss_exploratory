@@ -1,0 +1,27 @@
+Exploratory analysis plan X1 / X2 (SS arm, medical video causal gate, protocol DS203)
+
+File
+  EXPLORATORY_PLAN_X1_X2.md
+
+Provenance
+  Commit:   b6d1cf7893bff97cd17775f2c4807654ad545781
+            (git repository /srv/ss_exploratory; author Hisashi Nakano <hisashi-nakano@nuhw.ac.jp>)
+  Time:     2026-10-13 08:21:12 +0900 (local git commit time; the OSF upload gives the
+            independent timestamp)
+  SHA-256:  f5fc4c38d29a7c436b40442c167e27ff59505174831f90026a63740f325d8cc0
+            (the file in this package is byte-identical to the committed file; check with
+            `sha256sum EXPLORATORY_PLAN_X1_X2.md`)
+
+Summary
+  This plan specifies two exploratory analyses outside the frozen protocol DS203 (4c86dc5):
+  X1 refits the LEACE site eraser on the 158-case primary set (analysis region, per fold) and
+  reruns the FM-C arms, and X2 reruns the FM-C arms with the original eraser but linear
+  nuisance learners only. It fixes the cells, replicate seeds, E3 checks, outcomes, wording
+  rules, code and launch rule in advance; it produces no family verdicts and does not change
+  any protocol result.
+
+Blinding statement
+  The plan was written and committed before any step-6 result was accessed: while it was
+  written and committed, no step-6 output was opened, listed or read (nothing under
+  /media/user/LaCie/medvideo_gate/ss_step6/ and no step-6 log). It was written from the frozen
+  protocol, the locked code, the committed step-5 records and the code-lock timing table only.

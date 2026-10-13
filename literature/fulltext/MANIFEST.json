@@ -1,0 +1,121 @@
+[
+ {
+  "record": "DOI 10.1186/s12874-022-01563-3",
+  "files": [
+   {
+    "file": "pmc_idconv.json",
+    "bytes": 429,
+    "sha256": "03eb74843e9fea9b52887074ecbbaaf7b1e68c1a112fa89474daeee54504e8ff"
+   },
+   {
+    "file": "PMC9036763.xml",
+    "bytes": 102503,
+    "sha256": "87012bcae65a149ce28409edad7448f8498ed6f4d5199f50c46d39d689945ed0"
+   },
+   {
+    "file": "s12874-022-01563-3.pdf",
+    "bytes": 2525232,
+    "sha256": "9b86fc99895be0135fe77d02e0905a8dfa95033db1cfa08a61332e3c618580ea"
+   },
+   {
+    "file": "s12874-022-01563-3.txt",
+    "bytes": 41915,
+    "sha256": "0a0862f43ef00fce8704a9581ebde47314aa144b9c58167827a36ba941ae3eda",
+    "pages": 10
+   },
+   {
+    "file": "12874_2022_1563_MOESM1_ESM.pdf",
+    "bytes": 294432,
+    "sha256": "af0e1b8f44001f997eb9f2e52bd2613f789cadc65c9b090b14bfa3941c491675"
+   },
+   {
+    "file": "12874_2022_1563_MOESM1_ESM.txt",
+    "bytes": 7621,
+    "sha256": "66ad1acf080b56095d141aef41d3b4d3d7a90b7addad00f6d84569bf903e03fc",
+    "pages": 5
+   }
+  ],
+  "pmcid": "PMC9036763",
+  "pmc_license": " https://creativecommons.org/licenses/by/4.0/ Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not i",
+  "pmc_license_href": null,
+  "pdf_url": "https://bmcmedresmethodol.biomedcentral.com/counter/pdf/10.1186/s12874-022-01563-3.pdf",
+  "pdf_content_type": "application/pdf",
+  "supplement_url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12874-022-01563-3/MediaObjects/12874_2022_1563_MOESM1_ESM.pdf",
+  "supplement_content_type": "application/pdf"
+ },
+ {
+  "record": "arXiv 2605.01381",
+  "files": [
+   {
+    "file": "arxiv_2605.01381_abs.html",
+    "bytes": 41355,
+    "sha256": "8e3a49aa3a2f63c73ef2d6086b7b8ae3d9d81ef3818d08ce3580f78324cb125a"
+   },
+   {
+    "file": "arxiv_2605.01381.pdf",
+    "bytes": 815695,
+    "sha256": "afebc74ff65016e06d814b396d09fa77177c10838832dc436925dead4a2115ef"
+   },
+   {
+    "file": "arxiv_2605.01381.txt",
+    "bytes": 59031,
+    "sha256": "4e79738f5a8b0613d3cd840c6fc5f83834462704541a56b2c2dc31cde28c192c",
+    "pages": 14
+   }
+  ],
+  "license_href": "http://creativecommons.org/licenses/by/4.0/",
+  "latest_version": "v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.01381v1",
+  "pdf_content_type": "application/pdf"
+ },
+ {
+  "record": "arXiv 2610.08069",
+  "files": [
+   {
+    "file": "arxiv_2610.08069_abs.html",
+    "bytes": 45227,
+    "sha256": "f379eb6ae5986b19ba7a0d4ec44e24e1c18f08710d7fdb00de2eb064cb3955cb"
+   },
+   {
+    "file": "arxiv_2610.08069.pdf",
+    "bytes": 726244,
+    "sha256": "719cb926a0c36c45dc14584f5c23e33b02b65168ee1214eb897b667b2a687a84"
+   },
+   {
+    "file": "arxiv_2610.08069.txt",
+    "bytes": 114712,
+    "sha256": "b02280544eff9230fd99c92e10da6ae22785ca57be167f2ab6a488dacd1fb9f5",
+    "pages": 29
+   }
+  ],
+  "license_href": "http://creativecommons.org/licenses/by/4.0/",
+  "latest_version": "v1",
+  "pdf_url": "https://arxiv.org/pdf/2610.08069v1",
+  "pdf_content_type": "application/pdf"
+ },
+ {
+  "record": "arXiv 2107.03483",
+  "files": [
+   {
+    "file": "arxiv_2107.03483_abs.html",
+    "bytes": 44308,
+    "sha256": "6a7577d47a100c4111898d0a610e2ee3b9793148b7c8702aa886ca1fa759b5be"
+   },
+   {
+    "file": "arxiv_2107.03483.pdf",
+    "bytes": 287901,
+    "sha256": "456648d343cb08dab918059465630dec880cfcee5db5a2e8df8123dcfdb563bb"
+   },
+   {
+    "file": "arxiv_2107.03483.txt",
+    "bytes": 59708,
+    "sha256": "74c4cd6bb13c38cd1063265f5ecbb16df470fd144a31bae336beb9c709baa165",
+    "pages": 16
+   }
+  ],
+  "license_href": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "latest_version": "v1",
+  "pdf_url": "https://arxiv.org/pdf/2107.03483v1",
+  "pdf_content_type": "application/pdf"
+ }
+]

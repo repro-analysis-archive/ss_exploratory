@@ -1,3 +1,6 @@
 tmp/
 __pycache__/
 *.pyc
+# third-party full texts stay local (re-retrievable with literature/fetch_fulltext.py; hashes in MANIFEST.json)
+literature/fulltext/*
+!literature/fulltext/MANIFEST.json
