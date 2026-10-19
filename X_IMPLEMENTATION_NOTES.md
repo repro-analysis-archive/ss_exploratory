@@ -161,3 +161,23 @@ Measured on PLACEHOLDER inputs of the same size (2 threads): the X1 E3 checks ta
   * relaunched with the same command: complete.
 * **Results:** C0 passed, pairing passed, and a record commit of exactly the 10 record files whose parent is the launch commit.
 * **Afterwards:** the outputs and the clone are deleted.
+
+## Test results (2026-10-19)
+
+The criteria above were committed in `729b601` and the tests in `e8d2894`, before any test was run. The tests ran under `taskset -c 18,19` with the code-lock thread settings; peak RSS was at most 1.6 GB. Logs are in `tests/logs/`.
+
+| criteria | tests | result | log |
+|---|---|---|---|
+| T1–T7 | `tests/test_x_components.py` | 11 / 11 passed (102 s) | `test_components_20261019-0913.log` |
+| T8 | `tests/test_x_runner.py` | 3 / 3 passed | `test_runner_fast_20261019-0916.log` |
+| S | `tests/test_x_runner.py` (`SS_X_SMOKE=1`) | passed (7 min 27 s) | `test_smoke_20261019-0916.log` |
+
+**Smoke run S** (PLACEHOLDER; cells 2, 15, 18; 3 replicates; 2 workers on CPUs 18–19):
+* **Interrupt:** the run was stopped with `--stop` after 164 s. Stages C0 and X1 (erasure and E3) were done and 2 of 9 X1 units existed. The runner exited with code 2, state "stopped", reason "interrupted by signal 15".
+* **Resume:** the same command completed in 63 s, with 9 + 9 units.
+* **Record commit:** exactly the 10 record files, parent = the launch commit, tree clean.
+* **Checks:** control C0 passed; the pairing check passed (18 pairs).
+* **Relaunch:** refused ("already complete").
+* **Clean-up:** the outputs and the clone were deleted.
+
+No code change was needed after the tests.

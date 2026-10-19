@@ -1,0 +1,23 @@
+# 2026-10-19 09:13:50 +0900 HEAD 729b601867e77457b0b1dd8bb913824ba98f0199; taskset 18,19; code-lock threads
+============================= test session starts ==============================
+platform linux -- Python 3.11.14, pytest-9.0.3, pluggy-1.6.0 -- /home/user/miniconda3/bin/python3
+rootdir: /srv/ss_exploratory
+plugins: anyio-4.12.1, cov-7.1.0
+collecting ... collected 11 items
+
+tests/test_x_components.py::test_t1_x1_eraser_rows_rank_identities_shape PASSED [  9%]
+tests/test_x_components.py::test_t1_x1_eraser_uses_only_primary_training_rows PASSED [ 18%]
+tests/test_x_components.py::test_t1_x1_differs_from_protocol_eraser PASSED [ 27%]
+tests/test_x_components.py::test_t1_unpack_full_roundtrip PASSED         [ 36%]
+tests/test_x_components.py::test_t2_x1_e3_matches_locked_call PASSED     [ 45%]
+tests/test_x_components.py::test_t3_x2_linear_only_and_equals_locked_call PASSED [ 54%]
+tests/test_x_components.py::test_t3_x1_select_mode PASSED                [ 63%]
+tests/test_x_components.py::test_t4_c0_reproduces_locked_unit_and_detects_change PASSED [ 72%]
+tests/test_x_components.py::test_t5_pairing_check PASSED                 [ 81%]
+tests/test_x_components.py::test_t6_bootstrap_determinism_formula_identity_seeds PASSED [ 90%]
+tests/test_x_components.py::test_t7_report_wording_and_all_cells PASSED  [100%]
+
+======================== 11 passed in 101.82s (0:01:41) ========================
+	Command being timed: "/home/user/miniconda3/bin/python3 -m pytest -p no:cacheprovider -v tests/test_x_components.py"
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:42.35
+	Maximum resident set size (kbytes): 1625164

@@ -1,0 +1,18 @@
+# 2026-10-19 09:16:36 +0900 smoke run S; repository HEAD e8d289424f358c0ced7a7e132f0e6ca21c686feb; pytest under taskset 18,19, code-lock threads
+============================= test session starts ==============================
+platform linux -- Python 3.11.14, pytest-9.0.3, pluggy-1.6.0 -- /home/user/miniconda3/bin/python3
+rootdir: /srv/ss_exploratory
+plugins: anyio-4.12.1, cov-7.1.0
+collecting ... collected 4 items / 3 deselected / 1 selected
+
+tests/test_x_runner.py::test_s_smoke_run_interrupt_resume S0 PLACEHOLDER 'step-6' comparator shards (locked grid_driver._unit): 9 units in 209 s
+S1 interrupted after 164 s: stop requested (pid 2451949); resumable with the same launch command; runner exit 2; state stopped; stop reason 'interrupted by signal 15'; X1 shards 2; stages done ['c0', 'x1']
+S2 resumed: exit 0 in 63 s; state complete; units {'X1': 9, 'X2': 9}; record commit 76b5d8abbff0 parent e8d289424f35 (launch e8d289424f35); 10 files = records: True; tree clean: True; C0 passed True; pairing pairs 18
+S3 relaunch after completion: exit 3 (refused: already complete)
+S4 outputs and clone deleted
+PASSED
+
+================= 1 passed, 3 deselected in 446.33s (0:07:26) ==================
+	Command being timed: "/home/user/miniconda3/bin/python3 -m pytest -p no:cacheprovider -s -v tests/test_x_runner.py -k smoke"
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:26.83
+	Maximum resident set size (kbytes): 1426060

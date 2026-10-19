@@ -1,0 +1,13 @@
+# 2026-10-19 09:16:24 +0900 HEAD 729b601867e77457b0b1dd8bb913824ba98f0199; taskset 18,19
+============================= test session starts ==============================
+platform linux -- Python 3.11.14, pytest-9.0.3, pluggy-1.6.0 -- /home/user/miniconda3/bin/python3
+rootdir: /srv/ss_exploratory
+plugins: anyio-4.12.1, cov-7.1.0
+collecting ... collected 4 items
+
+tests/test_x_runner.py::test_t8_refuses_without_expect_commit PASSED     [ 25%]
+tests/test_x_runner.py::test_t8_refuses_dirty_tree PASSED                [ 50%]
+tests/test_x_runner.py::test_t8_status_shows_no_estimates PASSED         [ 75%]
+tests/test_x_runner.py::test_s_smoke_run_interrupt_resume SKIPPED (o...) [100%]
+
+========================= 3 passed, 1 skipped in 0.88s =========================
