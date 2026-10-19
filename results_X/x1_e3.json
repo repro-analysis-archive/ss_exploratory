@@ -1,0 +1,173 @@
+{
+ "P": {
+  "E2_primary_after_removal_X1": {
+   "auc_base": 0.699490444007669,
+   "auc_full": 0.7506158526198501,
+   "ci_hi": 0.08287099206579954,
+   "ci_lo": 0.018883112460850737,
+   "delta_auc": 0.05112540861218107,
+   "n_cases": 158,
+   "n_rows": 11850,
+   "pass": true
+  },
+  "E3_site_primary_X1": {
+   "linear": {
+    "ba": 0.25,
+    "hi_97p5": 0.25,
+    "lo_2p5": 0.25,
+    "n_cases": 158,
+    "upper_one_sided_95": 0.25
+   },
+   "mlp": {
+    "ba": 0.5765961979197274,
+    "hi_97p5": 0.6472814868954575,
+    "lo_2p5": 0.5058921776752658,
+    "n_cases": 158,
+    "upper_one_sided_95": 0.6367310997825704
+   },
+   "mlp_exceeds_margin": true,
+   "pass": true
+  },
+  "E3_state_primary_X1": {
+   "applicable": true,
+   "pass_": true,
+   "retained_fraction": 1.0190674990176425
+  },
+  "n_rows": 11850,
+  "step5_reference": {
+   "E2_primary_pass": true,
+   "E3_site_primary": {
+    "linear": {
+     "ba": 0.416124316859611,
+     "hi_97p5": 0.4810367022683199,
+     "lo_2p5": 0.35210350311453253,
+     "n_cases": 158,
+     "upper_one_sided_95": 0.47242022683199153
+    },
+    "mlp": {
+     "ba": 0.7019634776987718,
+     "hi_97p5": 0.7630457777516602,
+     "lo_2p5": 0.6403769943292003,
+     "n_cases": 158,
+     "upper_one_sided_95": 0.7547454383851443
+    },
+    "mlp_exceeds_margin": true,
+    "pass": false
+   }
+  }
+ },
+ "REF": {
+  "E2_primary_after_removal_X1": {
+   "auc_base": 0.7006732521148344,
+   "auc_full": 0.7245248243858519,
+   "ci_hi": 0.051542892465344284,
+   "ci_lo": -0.0016572599216725268,
+   "delta_auc": 0.02385157227101742,
+   "n_cases": 158,
+   "n_rows": 11850,
+   "pass": false
+  },
+  "E3_site_primary_X1": {
+   "linear": {
+    "ba": 0.25,
+    "hi_97p5": 0.25,
+    "lo_2p5": 0.25,
+    "n_cases": 158,
+    "upper_one_sided_95": 0.25
+   },
+   "mlp": {
+    "ba": 0.4580529764353294,
+    "hi_97p5": 0.5297230343186226,
+    "lo_2p5": 0.39160315787154026,
+    "n_cases": 158,
+    "upper_one_sided_95": 0.517420447199859
+   },
+   "mlp_exceeds_margin": true,
+   "pass": true
+  },
+  "E3_state_primary_X1": {
+   "applicable": false,
+   "note": "E2 primary failed: retention of state information could not be assessed",
+   "pass_": null
+  },
+  "n_rows": 11850,
+  "step5_reference": {
+   "E2_primary_pass": false,
+   "E3_site_primary": {
+    "linear": {
+     "ba": 0.4482135511547276,
+     "hi_97p5": 0.5176802976435328,
+     "lo_2p5": 0.3871048987776929,
+     "n_cases": 158,
+     "upper_one_sided_95": 0.505065706352471
+    },
+    "mlp": {
+     "ba": 0.6196303696303695,
+     "hi_97p5": 0.6873256339248986,
+     "lo_2p5": 0.5434357921490275,
+     "n_cases": 158,
+     "upper_one_sided_95": 0.679523417758712
+    },
+    "mlp_exceeds_margin": true,
+    "pass": false
+   }
+  }
+ },
+ "S": {
+  "E2_primary_after_removal_X1": {
+   "auc_base": 0.7009213206929662,
+   "auc_full": 0.7004544415351303,
+   "ci_hi": 0.02105725998487303,
+   "ci_lo": -0.02206429757286127,
+   "delta_auc": -0.00046687915783594214,
+   "n_cases": 158,
+   "n_rows": 11850,
+   "pass": false
+  },
+  "E3_site_primary_X1": {
+   "linear": {
+    "ba": 0.25,
+    "hi_97p5": 0.25,
+    "lo_2p5": 0.25,
+    "n_cases": 158,
+    "upper_one_sided_95": 0.25
+   },
+   "mlp": {
+    "ba": 0.30947361462067347,
+    "hi_97p5": 0.36564657768701875,
+    "lo_2p5": 0.25465104748192985,
+    "n_cases": 158,
+    "upper_one_sided_95": 0.3566002012693189
+   },
+   "mlp_exceeds_margin": true,
+   "pass": true
+  },
+  "E3_state_primary_X1": {
+   "applicable": false,
+   "note": "E2 primary failed: retention of state information could not be assessed",
+   "pass_": null
+  },
+  "n_rows": 11850,
+  "step5_reference": {
+   "E2_primary_pass": false,
+   "E3_site_primary": {
+    "linear": {
+     "ba": 0.3932942057942058,
+     "hi_97p5": 0.44438374125874114,
+     "lo_2p5": 0.3460804820179821,
+     "n_cases": 158,
+     "upper_one_sided_95": 0.4354458041958042
+    },
+    "mlp": {
+     "ba": 0.42754671798789445,
+     "hi_97p5": 0.4891937107010636,
+     "lo_2p5": 0.36814784480225654,
+     "n_cases": 158,
+     "upper_one_sided_95": 0.476329552800141
+    },
+    "mlp_exceeds_margin": true,
+    "pass": false
+   }
+  }
+ }
+}

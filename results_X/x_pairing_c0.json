@@ -1,0 +1,41 @@
+{
+ "control_c0": {
+  "passed": true,
+  "units": [
+   {
+    "cell": 2,
+    "differing_fields": [],
+    "fields_compared": 23,
+    "identical": true,
+    "rep": 0
+   },
+   {
+    "cell": 2,
+    "differing_fields": [],
+    "fields_compared": 23,
+    "identical": true,
+    "rep": 1
+   },
+   {
+    "cell": 18,
+    "differing_fields": [],
+    "fields_compared": 23,
+    "identical": true,
+    "rep": 0
+   },
+   {
+    "cell": 18,
+    "differing_fields": [],
+    "fields_compared": 23,
+    "identical": true,
+    "rep": 1
+   }
+  ]
+ },
+ "pairing": {
+  "cells": 71,
+  "pairs_checked": 28400,
+  "passed": true,
+  "replicates_per_cell": 200
+ }
+}
